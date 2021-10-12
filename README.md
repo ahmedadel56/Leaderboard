@@ -1,5 +1,5 @@
 # Leaderboard
-![image](https://user-images.githubusercontent.com/43178495/136969790-89426174-aa19-47a1-aae6-3ca764b7f885.png)
+![image](https://user-images.githubusercontent.com/43178495/136971396-4af3c3d7-8891-45c5-a78b-68a756b9eb7e.png)
 
 In this Project Iam creating Leaderboard to save scores of players
 
