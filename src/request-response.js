@@ -7,7 +7,7 @@ const score = document.getElementById('score');
 const submit = document.getElementById('submit');
 
 function pushData(data) {
-  list.innerHTML = ` <li><span>Name</span> <span>score</span></li>`;
+  list.innerHTML = ' <li><span>Name</span> <span>score</span></li>';
   data.forEach((result) => {
     const { user, score } = result;
     const listItem = document.createElement('li');

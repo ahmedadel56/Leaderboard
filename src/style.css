@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   margin: 0;
   padding-top: 50px;
@@ -9,14 +10,14 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family: 'Oswald', sans-serif;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 button {
   width: 5rem;
-  height: 20px;
   border: none;
   outline: none;
   height: 1.6rem;
@@ -60,18 +61,19 @@ span {
   background-color: teal;
 }
 
-.add form button:active {
-  background-color: rgb(12, 71, 71);
-}
-
 .result .title-container button {
   background-color: tomato;
   color: #fff;
 }
 
+.add form button:active {
+  background-color: rgb(12, 71, 71);
+}
+
 .result .title-container button:active {
   background-color: rgb(180, 48, 25);
 }
+
 .result .title-container {
   display: flex;
   justify-content: space-between;
@@ -90,11 +92,11 @@ span {
   padding-left: 10px;
   display: flex;
   align-items: center;
-  border-bottom:2px solid #ddd;
+  border-bottom: 2px solid #ddd;
 }
 
 .result .scores-list li:nth-child(1) {
-  border-bottom:2px solid #000;
-  font-family: 'Bebas Neue', 'cursive';
+  border-bottom: 2px solid #000;
+  font-family: 'Bebas Neue', cursive;
   letter-spacing: 1px;
 }
