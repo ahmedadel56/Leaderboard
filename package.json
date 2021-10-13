@@ -1,10 +1,10 @@
 {
-  "name": "to-do-list",
+  "name": "leader-dashboard",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --wathcAll",
     "build": "webpack",
     "start": "webpack serve --open"
   },
