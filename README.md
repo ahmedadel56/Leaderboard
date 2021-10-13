@@ -6,7 +6,8 @@ In this Project Iam creating Leaderboard to save scores of players
 
 # Live Demo
 
-https://adoring-panini-b8daf5.netlify.app/
+
+[Demo](https://adoring-panini-b8daf5.netlify.app/) 
 
 ## Built With
 
