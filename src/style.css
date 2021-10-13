@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body {
   margin: 0;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .1rem;
 }
 
 button {
-  width: fit-content;
+  width: 5rem;
   height: 20px;
-  box-shadow: 3px 3px;
+  border: none;
+  outline: none;
+  height: 1.6rem;
+}
+
+span {
+  width: 50%;
 }
 
 .container {
@@ -33,10 +47,31 @@ button {
   flex-direction: column;
 }
 
-.add form button {
-  align-self: flex-end;
+.add form input {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: 0;
+  height: 2rem;
 }
 
+.add form button {
+  align-self: flex-end;
+  color: #fff;
+  background-color: teal;
+}
+
+.add form button:active {
+  background-color: rgb(12, 71, 71);
+}
+
+.result .title-container button {
+  background-color: tomato;
+  color: #fff;
+}
+
+.result .title-container button:active {
+  background-color: rgb(180, 48, 25);
+}
 .result .title-container {
   display: flex;
   justify-content: space-between;
@@ -44,7 +79,6 @@ button {
 }
 
 .result .scores-list {
-  border: 2px solid black;
   padding: 0;
   overflow: hidden;
 }
@@ -56,8 +90,11 @@ button {
   padding-left: 10px;
   display: flex;
   align-items: center;
+  border-bottom:2px solid #ddd;
 }
 
-.scores-list li:nth-child(even) {
-  background-color: #ddd;
+.result .scores-list li:nth-child(1) {
+  border-bottom:2px solid #000;
+  font-family: 'Bebas Neue', 'cursive';
+  letter-spacing: 1px;
 }

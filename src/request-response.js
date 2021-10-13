@@ -7,11 +7,16 @@ const score = document.getElementById('score');
 const submit = document.getElementById('submit');
 
 function pushData(data) {
-  list.innerHTML = '';
+  list.innerHTML = ` <li><span>Name</span> <span>score</span></li>`;
   data.forEach((result) => {
     const { user, score } = result;
     const listItem = document.createElement('li');
-    listItem.innerHTML = `${user}: ${score}`;
+    const userContain = document.createElement('span');
+    userContain.innerHTML = user;
+    const scoreContain = document.createElement('span');
+    scoreContain.innerHTML = score;
+    listItem.appendChild(userContain);
+    listItem.appendChild(scoreContain);
     list.appendChild(listItem);
   });
 }
