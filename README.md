@@ -1,11 +1,12 @@
 # Leaderboard
-![image](https://user-images.githubusercontent.com/43178495/136971396-4af3c3d7-8891-45c5-a78b-68a756b9eb7e.png)
+![image](https://user-images.githubusercontent.com/43178495/137185608-302f40c1-6c2b-49c2-8c6d-bb383d8cf7b6.png)
+
 
 In this Project Iam creating Leaderboard to save scores of players
 
 # Live Demo
 
-https://ahmedadel56.github.io/Leaderboard/dist/
+https://adoring-panini-b8daf5.netlify.app/
 
 ## Built With
 
