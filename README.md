@@ -30,10 +30,10 @@ An updated web browser
 
 ### Usage
 
-- Type the The name in the text field
+- Type The name in the text field
 - Type the Score player get in the Score field
-- Click submit To save Date
-- Make refresh by clicking on refresh button
+- Click submit To save the Date
+- Make a refresh by clicking on the refresh button
 
 
 ## Authors
